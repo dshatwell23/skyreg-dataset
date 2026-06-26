@@ -6,7 +6,20 @@ SkyReg is a large-scale drone–satellite geo-registration dataset designed for 
 
 ## Dataset Structure
 
-The dataset is organized into three main subsets: `SkyReg-Urban`, `SkyReg-Landmark`, and `SkyReg-Suburban`. `SkyReg-Urban` contains city-level data for Chicago, San Francisco, and Seattle. `SkyReg-Landmark` and `SkyReg-Suburban` contain drone query images, satellite reference images, and their corresponding annotation files. Drone images are stored in `GT_Images` / `GT_Image`, with annotations in `GT_NPZ`; satellite images are stored in `GT_Sat_Images`, with annotations in `GT_Sat_NPZ`. The `.npz` files contain the geometric and geodetic metadata needed for pixel-wise geo-registration. The root directory also includes `SkyReg_Lib.py` for dataset loading utilities and a `demo/` folder with scripts for reading annotations, extracting GPS information, and visualizing pixel-wise GPS coordinates.
+The dataset contains three main subsets:
+
+- SkyReg-Urban/: Urban scenes from Chicago, San Francisco, and Seattle.
+- SkyReg-Landmark/: Landmark scenes with drone and satellite images.
+- SkyReg-Suburban/: Suburban scenes with drone and satellite images.
+
+For the Landmark and Suburban subsets:
+
+- GT_Images/ or GT_Image/: drone query images.
+- GT_NPZ/: drone annotations.
+- GT_Sat_Images/: satellite reference images.
+- GT_Sat_NPZ/: satellite annotations.
+
+The .npz files contain the metadata needed for geo-registration, including GPS coordinates, depth, and camera parameters. The root directory also includes SkyReg_Lib.py for loading the dataset and a demo/ folder with basic visualization and GPS extraction scripts.
 
 ## Download Instructions
 
