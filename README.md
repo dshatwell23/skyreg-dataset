@@ -1,5 +1,7 @@
 # SkyReg Dataset
 
+![SkyReg teaser](assets/teaser.png)
+
 ## Description
 
 SkyReg is a large-scale drone–satellite geo-registration dataset designed for dense, pixel-wise geodetic alignment. It consists of SkyReg-130k for training and SkyReg-Bench for evaluation, covering Urban, Landmarks, and Suburban scenes with diverse locations, camera configurations, viewpoint changes, and scene layouts. Each sample pairs a perspective drone image with a geodetically accurate satellite reference and includes dense annotations such as per-pixel latitude–longitude coordinates, metric depth, camera intrinsics, and 6-DoF camera poses. Urban scenes use orthorectified satellite tiles with LiDAR-derived depth, while Landmark and Suburban scenes use perspective satellite/drone views with SfM-derived depth.
