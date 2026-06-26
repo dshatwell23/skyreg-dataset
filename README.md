@@ -1,2 +1,2 @@
-# skyreg-dataset
+# SkyReg Dataset
 Instructions to download dataset
