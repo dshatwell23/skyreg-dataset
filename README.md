@@ -27,5 +27,5 @@ The .npz files contain the metadata needed for geo-registration, including GPS c
 
 The SkyReg dataset is hosted on OneDrive and can be accessed through the link below. Users may download individual files from the browser or use the OneDrive “Download” option to retrieve the full dataset archive. Due to the dataset size, we recommend using a stable internet connection and ensuring that sufficient local storage is available before downloading.
 
-Dataset URL: (https://1drv.ms/f/c/232c3f967ac5d5c0/IgBREX5gKXHiRJlgzxQgfcnIAaU_Svb10SRvugO3MeZk1RY?e=cM2dYy)
+Dataset URL: https://www.crcv.ucf.edu/data1/SkyReg/
 
