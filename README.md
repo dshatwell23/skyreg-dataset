@@ -21,7 +21,7 @@ For the Landmark and Suburban subsets:
 - GT_Sat_Images/: satellite reference images.
 - GT_Sat_NPZ/: satellite annotations.
 
-The .npz files contain the metadata needed for geo-registration, including GPS coordinates, depth, and camera parameters. The root directory also includes SkyReg_Lib.py for loading the dataset and a demo/ folder with basic visualization and GPS extraction scripts.
+The .npz files contain the metadata needed for geo-registration, including GPS coordinates, depth, and camera parameters. Demo contains code to derive the per pixel GPS from the .npz files.  More detail is shown in the README in the demo subdirectory.  
 
 ## Download Instructions
 
