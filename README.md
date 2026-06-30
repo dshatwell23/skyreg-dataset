@@ -21,11 +21,11 @@ For the Landmark and Suburban subsets:
 - GT_Sat_Images/: satellite reference images.
 - GT_Sat_NPZ/: satellite annotations.
 
-The .npz files contain the metadata needed for geo-registration, including GPS coordinates, depth, and camera parameters. The root directory also includes SkyReg_Lib.py for loading the dataset and a demo/ folder with basic visualization and GPS extraction scripts.
+The .npz files contain the metadata needed for geo-registration, including GPS coordinates, depth, and camera parameters. Demo contains code to derive the per pixel GPS from the .npz files.  More detail is shown in the README in the demo subdirectory.  
 
 ## Download Instructions
 
-The SkyReg dataset is hosted on OneDrive and can be accessed through the link below. Users may download individual files from the browser or use the OneDrive “Download” option to retrieve the full dataset archive. Due to the dataset size, we recommend using a stable internet connection and ensuring that sufficient local storage is available before downloading.
+The SkyReg dataset is hosted on crcv.ucf.edu and can be accessed through the link below.  Due to the dataset size, we recommend using a stable internet connection and ensuring that sufficient local storage is available before downloading.
 
-Dataset URL: (https://1drv.ms/f/c/232c3f967ac5d5c0/IgBREX5gKXHiRJlgzxQgfcnIAaU_Svb10SRvugO3MeZk1RY?e=cM2dYy)
+Dataset URL: https://www.crcv.ucf.edu/data1/SkyReg/
 
